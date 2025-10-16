@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    font-family: 'Times New Roman';
+}
+#navbelt{
+    background-color: #0f1111;
+    color: white;
+    font-size: 14px;
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.border{
+    border: 1px  solid transperant;
+}
+.border:hover{
+    border: 1px solid white;
+}
+#alogo{
+    height: 35px;
+    width: 110px;
+    background-image: url("amazonlogo.jpg");
+    background-size: cover;
+    padding: 5px;
+}
+#address{
+    width: 80px;
+    height: 40px;
+   padding: 10px;
+}
+#deliver{
+    margin-left: 10px;
+    color: rgb(230, 224, 224);
+}
+#search{
+    height: 35px;
+    width: 670px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+#all{
+    height: 100%;
+    width: 50px;
+    background-color: rgb(223, 220, 220);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+#seabox{
+    height:33px;
+    width: 80%;
+    background-color: white;
+    color: grey;
+    border: none;
+}
+#seabut{
+    height: 100%;
+    width: 50px;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#en{
+    height: 40px;
+    width: 60px;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+
+}
+#hello{
+    font-size: 11px;
+    color: rgb(230, 224, 224);
+}
+#link_account{
+    height: 40px;
+    width: 80;
+    text-align: center;
+    padding: 3px;
+}
+#nav_order{
+    height: 40px;
+    width: 80;
+    padding: 5px;
+}
+#ret{
+    font-size: 12px;
+    color: rgb(230, 224, 224);
+}
+#nav_cart{
+    height: 50px;
+    width: 80px;
+    font-size: xx-large;
+    text-align: center;
+    margin: 5px;
+}
+#cart{
+    font-size: 14px;
+    text-align: end;
+}
+#nav_belt{
+    height: 40px;
+    width: auto;
+    background-color: #1c2029;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#b{
+    height: 80%;
+    width: auto;
+    padding:0px 10px 0px 10px;
+    font-size: large; 
+    color: white;
+}
+#book_img{
+    height: 380px;
+    background-image: url("book.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#in_img{
+    height: 35px;
+    width: 94%;
+    background-color: white;
+    align-items: baseline;
+    position: absolute;
+    top: 420px;
+    font-size: 1rem;
+    text-align: center;
+}
+a{
+   
+    text-decoration: none;
+}
+#click_here{
+    color: #007185;
+}
+#box_img1{
+    height: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(230, 236, 212);
+    
+}
+.box_com1{
+    height:420px;
+    width: 22%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box_img1{
+    margin: 10px 10px 10px 10px;
+    height: 72%;
+    width: 88%;
+    background-size: cover;
+    
+} 
+#box_img5{
+    margin-top: 20px ;
+    height: 350px;
+    width: 97%;
+    background-color: white;
+    background-image: url("box5.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+#box_img4{
+    margin-top: 20px ;
+    height: 350px;
+    width: 97%;
+    background-color: white;
+    background-image: url("box4.jpg");
+    background-size: cover;
+}
+#anchor:hover{
+    color: red;
+}
+#sign{
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+#hr{
+    font-size: xx-small;
+    color: #83878e;
+}
+#si_bn{
+    height: 30px;
+    background-color: orange;
+    padding: 0px 7% 0px 7%;
+    border-radius: 4px;
+}
+footer{
+    height: auto;
+    color: white;
+}
+#back{
+    height: 20px;
+    padding: 15px 0px 15px 0;
+    text-align: center;
+    font-size: larger;
+    background-color: #2f2f3e;
+}
+footer{
+    background-color: #2e2e40;
+}
+#footer_des{
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#box{
+    height: 300px;
+    width: 25%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#f_div{
+    padding-left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#eng{
+    padding-left: 100px;
+    padding-right: 30px;
+    border:1px solid white;
+    padding: 2px 4px 2px 2px;
+}
+#us{
+    margin-left: 30px;
+    margin-right: 30px;
+    border:1px solid white;
+    padding: 2px 4px 2px 2px;
+}
+#last{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+

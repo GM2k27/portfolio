@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="piano.css">
+    <title> Virtual Piano</title>
+</head>
+<body>
+    <h1>Tap the keys to play 🎹 Piano</h1>
+    <div id="Piano">
+        <button class="PianoKey w">a</button>
+        <button class="PianoKey b">v</button>
+        <button class="PianoKey w">b</button>
+        <button class="PianoKey b">w</button>
+        <button class="PianoKey w">c</button>
+        <button class="PianoKey b">x</button>
+        <button class="PianoKey w">d</button>
+        <button class="PianoKey w">f</button>
+        <button class="PianoKey b">y</button>
+        <button class="PianoKey w">g</button>
+        <button class="PianoKey b">z</button>
+        <button class="PianoKey w">e</button>
+        
+    </div>
+    <!-- <div id="vol">
+        <button class="v" id="vol_down">-</button>
+        <span id="vol_display">50%</span>
+        <button class="v" id="vol_up">+</button>
+    </div> -->
+    <label for="volume">Volume:</label>
+    <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+    <script src="piano.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+  /* background: linear-gradient(100deg, #5f9ce3, #bedd60, #ee5b6c); */
+  /* background-size: 400%;
+  animation: gradient 5s ease infinite; */
+  /* background: url('pubic/images/my_pic_bw.png') no-repeat; */
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @keyframes gradient {
+  0% { background-position: 0% 20%; }
+  10% { background-position: 0% 50%; }
+  20% { background-position: 10% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 20%; }
+} */
+
+.main_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height:auto;
+    font-size: 1rem;
+}
+
+a{
+  color: white;
+  padding: 4px;
+  margin: 15px;
+  border-bottom-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-decoration: none;
+}
+
+a:hover{
+    border:2px solid azure;
+    color: rgb(241, 149, 10);
+}
+
+.me_contain{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+#text{
+  font-size: 1.5rem;
+}
+
+.type-container {
+  display: inline-block;
+  min-width: 200px;
+  text-align: center;
+}
+
+.type{
+  color: rgb(241, 149, 10);
+  text-decoration: underline;
+}
+.circle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle:hover{
+  background-color: rgb(255, 138, 4);
+}
+
+.icon_cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills{
+  width: 100vw;
+  display: flex;
+}
+
+.skill_container{
+  height: 400px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin-bottom: 10px;
+  background-color: rgb(209, 37, 37);
+}
+
+.skill_circle{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+}
+

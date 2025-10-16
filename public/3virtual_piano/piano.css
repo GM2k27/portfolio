@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color: #7d3db5c3;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+
+#Piano{
+    display: flex;
+    margin: 20px;
+    position:static;
+    margin-left:33%;
+}
+
+.PianoKey{
+    width: 60px;
+    height: 250px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgb(10, 4, 4);
+    margin: 3px;
+    font-size: x-large;
+}
+
+.b{
+    height: 170px;
+    width: 45px;
+    background-color: black;
+    border: 2px solid black;
+    color: aliceblue;
+    margin-left: -22px;
+    margin-right: -22px;
+    z-index: 1;
+}
+.w:hover{
+    border: 4px solid black;
+}
+.b:hover{
+    border: 2px solid white;
+    
+}
+.v{
+    font-size: xx-large;
+    margin: 40px;
+    background-color: rgb(124, 44, 171);
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 9px 7px rgba(227, 227, 227, 0.626);
+}
+.b:active{
+    background-color: #434244;
+}
+.w:active{
+    background-color: #9e9ba0;
+}
