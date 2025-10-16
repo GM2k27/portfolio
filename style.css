@@ -1,21 +1,8 @@
 body {
-  /* background: linear-gradient(100deg, #5f9ce3, #bedd60, #ee5b6c); */
-  /* background-size: 400%;
-  animation: gradient 5s ease infinite; */
-  /* background: url('pubic/images/my_pic_bw.png') no-repeat; */
-  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/* @keyframes gradient {
-  0% { background-position: 0% 20%; }
-  10% { background-position: 0% 50%; }
-  20% { background-position: 10% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 20%; }
-} */
 
 .main_container{
   display: flex;
