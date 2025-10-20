@@ -13,3 +13,4 @@ function typingText(){
 typingText();
 setInterval(typingText,2000)
 })
+
